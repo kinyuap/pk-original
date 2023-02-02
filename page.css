@@ -1,0 +1,57 @@
+.input-button{
+    display: block;
+}
+
+.thumbnail{
+    width:100% ;
+     margin-top: 10px;
+     border-radius: 10px;
+     position: relative;
+     
+}
+.channel-picture{
+    width: 50px;
+    border-radius: 20px;
+
+}
+.profile-picture,.video-info{
+    display: inline-block;
+}
+.video-info{
+width: 200px;
+margin-top: 0;
+padding-left: 4px;
+}
+.profile-picture{
+vertical-align: top;
+margin-top: 4px;
+}
+.video-title{
+margin-top: 4px;
+}
+.div-1{
+display: inline-block;
+}
+.video-info-grid{
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+.video-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 10px;
+row-gap: 10px;
+margin-left: 0px;
+}
+.body{
+    margin: 0;
+    height: 1000px;
+    padding-left: 96px;
+    background-color: rgb(245, 243, 243);
+
+    
+}
+.division{
+    padding-bottom: 70px;
+
+}
